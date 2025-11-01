@@ -11,7 +11,7 @@ options.add_argument("--headless")  # optional for Jenkins CI
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
-service = Service("/usr/bin/chromedriver")  # adjust if using a different path
+service = Service("D:\\NAVYA\\devops\\Week-2\\chromedriver-win64\\chromedriver.exe")  # adjust if using a different path
 driver = webdriver.Chrome(service=service, options=options)
 
 # ✅ Open your app URL (use the correct NodePort)
